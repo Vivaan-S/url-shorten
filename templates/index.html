@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form role="form" method='POST' action='/'>
+	<input autocomplete="off" type="text" name="add" id="add" placeholder="Enter URL..." required>
+	<button type="submit">Turn into short URL</button>
+</form>
+
+{% if url != None %}
+<p id="message">The Short URL for that is: <strong><a href="{{url}}">{{url}}</a></strong></p>
+{% endif %}
+
+
+{% endblock %}

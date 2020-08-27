@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'CactusFont';
+	src: url('https://fonts.gstatic.com/s/alata/v2/PbytFmztEwbIoceyzqYhQA.woff2');
+}
+
+body{
+	margin: 0;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	background-color: #3af;
+	font-family: 'Sniglet', cursive;
+}
+
+h1{
+	text-align: center;
+	margin: 0;
+	margin-top: 25px;
+	font-size: 10vw;
+	font-family: CactusFont, 'Fredoka One', cursive;
+	color: #393;
+}
+main{
+	margin-top: 50px;
+}
+
+input, button{
+	background-color: #cc3;
+	border: 2px solid #990;
+	border-radius: 20px;
+	padding: 5px;
+	color: #fff;
+	outline: none;
+	font-size: 20px;
+}
+
+input:active{
+	outline: none;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+p#message {
+	font-size: 25px;
+	color: #333;
+}
+
+p#message strong a, p#messaeg strong{
+	color: #f33;
+}
